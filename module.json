@@ -1,0 +1,41 @@
+{
+    "name": "birb-house-compendium",
+    "title": "Birb House Compendium",
+    "description": "Birb House!",
+    "authors": [
+        {
+            "name": "ShovelWalnuts"
+        }
+    ],
+    "version": "0.9.0",
+    "compatibility": {
+        "minimum": "0.5.0",
+        "verified": "10"
+    },
+    "packs": [
+        {
+            "name": "characters",
+            "label": "Birb Characters",
+            "path": "packs/characters.db",
+            "type": "Actor",
+            "module": "birb-house-compendium",
+            "system": "dnd5e"
+        },
+        {
+            "name": "items",
+            "label": "Birb Items",
+            "path": "packs/items.db",
+            "type": "Item",
+            "module": "birb-house-compendium",
+            "system": "dnd5e"
+        },
+        {
+            "name": "npcs",
+            "label": "Birb NPCs",
+            "path": "packs/npcs.db",
+            "type": "Actor",
+            "module": "birb-house-compendium",
+            "system": "dnd5e"
+        }
+    ]
+}
