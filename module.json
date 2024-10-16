@@ -1,44 +1,55 @@
 {
-    "name": "birb-house-compendium",
-    "title": "Birb House Compendium",
-    "description": "Birb House!",
-    "authors": [
-        {
-            "name": "ShovelWalnuts"
-        }
-    ],
-    "version": "1.0.1",
-    "compatibility": {
-        "minimum": "0.5.0",
-        "verified": "11"
+  "title": "Birb House Compendium",
+  "description": "Birb House!",
+  "authors": [
+    {
+      "name": "ShovelWalnuts",
+      "flags": {}
+    }
+  ],
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12",
+    "maximum": "12.331"
+  },
+  "url": "https://github.com/ShovelCrow/BirbHouseDND",
+  "packs": [
+    {
+      "name": "characters",
+      "label": "Birb Characters",
+      "path": "packs/characters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
-    "url": "https://github.com/ShovelCrow/BirbHouseDND",
-    "packs": [
-        {
-            "name": "characters",
-            "label": "Birb Characters",
-            "path": "packs/characters.db",
-            "type": "Actor",
-            "module": "birb-house-compendium",
-            "system": "dnd5e"
-        },
-        {
-            "name": "items",
-            "label": "Birb Items",
-            "path": "packs/items.db",
-            "type": "Item",
-            "module": "birb-house-compendium",
-            "system": "dnd5e"
-        },
-        {
-            "name": "npcs",
-            "label": "Birb NPCs",
-            "path": "packs/npcs.db",
-            "type": "Actor",
-            "module": "birb-house-compendium",
-            "system": "dnd5e"
-        }
-    ],
-    "manifest": "https://github.com/ShovelCrow/BirbHouseDND/releases/latest/download/module.json",
-    "download": "https://github.com/ShovelCrow/BirbHouseDND/releases/download/1.0.1/module.zip"
+    {
+      "name": "items",
+      "label": "Birb Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Birb Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "manifest": "https://github.com/ShovelCrow/BirbHouseDND/releases/latest/download/module.json",
+  "download": "https://github.com/ShovelCrow/BirbHouseDND/releases/download/1.0.1/module.zip",
+  "id": "birb-house-compendium"
 }
